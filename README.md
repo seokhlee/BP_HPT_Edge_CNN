@@ -14,4 +14,6 @@ Optoelectronic computation of convolutional kernels. (a) The computing structure
 
 ## CNN Archetecture Used in the Paper
 
+We pre-trained the simple CNN architecture consisting of two 3x3 Convolutional Kernels, Mean Pooling layer, and a FC layer to classify MNIST '0's and '1's, and obtained the elements of Convolutional Kernels using O1_MNIST_CNN_HPT_train.m
+
 ![Picture2](https://github.com/seokhlee/BP_HPT_Edge_CNN/assets/100313451/7bbc590e-f996-496f-b60a-b4d20088a23f)
