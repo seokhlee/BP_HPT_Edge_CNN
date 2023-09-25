@@ -1,6 +1,6 @@
 %clc;clear;
 %%
-% fetch hardware generated metadata
+% fetch hardware generated metadata. Metadata are not shared on this repository, which is ToDo
 currPath = pwd;
 %Datapath2 = strcat(currPath,
 Datapath2 ='D:\SeokhyeongLee\BP_project\BP_CTT\ctt_v12_IDT_20210703\MNIST_Test_0709';
@@ -24,7 +24,7 @@ for p=36:80
         end
     end
 end 
-%% cov layer
+%% cov layer trained from O1. 
 K_test1=[1.9539    0.6355   -0.9577;    2.0035    0.4924   -0.8589;    1.6262    0.1575   -0.7946];
 K_test2=[3.4770    1.5833   -0.7730;    3.7587    1.6116   -1.0910;    4.7789    1.7567   -1.7929];
 
@@ -44,7 +44,7 @@ for i=1:ni-2
 end
 
 
-
+% Descretized Kernel values to programmable level on the hardware (36-80 integer level)
 
 K1=[78	25	-38;80	20	-34;65	6	-32];
 
@@ -61,7 +61,7 @@ test_S11=max(0,test_conv1+b1(1));
 test_S12=max(0,test_conv2+b1(2));
 
 
-
+% Forward propagation of the CNN layer based on metaData
 
 nk=size(K1);
 ni=sqrt((length(sig_data(:,1,1))));
