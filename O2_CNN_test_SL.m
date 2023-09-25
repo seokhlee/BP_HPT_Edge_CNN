@@ -2,8 +2,7 @@
 %%
 % fetch hardware generated metadata. Metadata are not shared on this repository, which is ToDo
 currPath = pwd;
-%Datapath2 = strcat(currPath,
-Datapath2 ='D:\SeokhyeongLee\BP_project\BP_CTT\ctt_v12_IDT_20210703\MNIST_Test_0709';
+%Datapath2 = strcat(currPath,'\BP_PPT_HW_control');
 %X =imread('D:\SeokhyeongLee\BP_project\BP_CTT\ctt_v12_IDT_20210703\MNIST_Test_0705');
 ni=28;
 for p=36:80
