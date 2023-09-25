@@ -1,1 +1,2 @@
-
+.gz files need to be unzip to use
+Zipped to meet 25 MB policy
