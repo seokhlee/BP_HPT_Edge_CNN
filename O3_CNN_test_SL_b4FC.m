@@ -1,6 +1,7 @@
 %clc;clear;
-%%
+%% Manually selected '0's and '1's fetched to the hardware CNN test
 img_list=[2	4	7	9	14	18	20	22	23	39	57	62	65	66	67	69	70	83	84	95	101	107	109	115	117	118	134	135	136	138	162	165	170	175	179	188	192	196	201	203	206	211	217	223	226	229	230	231	234	253	258	266	270	272	277	281	284	288	308	314	315	319	322	323	328	333	335	337	338	340	343	346	369	388	391	396	397	398	404	412	414	417	440	447	466	470	471	480	483	500	523	526	528	529	531	541	545	547	550	551];
+% Metadata are not shared on this repository, which is ToDo
 Datapath2 ='D:\SeokhyeongLee\BP_project\BP_CTT\ctt_v12_IDT_20210703\MNIST_Test_0709';
 %X =imread('D:\SeokhyeongLee\BP_project\BP_CTT\ctt_v12_IDT_20210703\MNIST_Test_0705');
 ni=28;
